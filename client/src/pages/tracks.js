@@ -35,7 +35,7 @@ const Tracks = () => {
       )}
     </QueryResult>
   </Layout>;
-  
+
 };
 
 export default Tracks;

@@ -1,8 +1,28 @@
 # Odyssey Lift-off I: Basics
 
-Welcome to the companion app of Odyssey Lift-off I! You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/lift-off-part1), Apollo's learning platform. And the original repo [here](https://github.com/apollographql/odyssey-lift-off-part1), which might have been updated since following the course.
-
+Welcome to the companion app of Odyssey Lift-off I! You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/lift-off-part1), Apollo's learning platform.
+)
 You can [preview the completed demo app here](https://odyssey-catstronauts.netlify.app/).
+
+
+> **Note**
+>
+> The original repo is [here](https://github.com/apollographql/odyssey-lift-off-part1), and it might have been updated since following the course.
+>
+> To keep it up to date:
+> ```
+> git remote add upstream https://github.com/apollographql/odyssey-lift-off-part1
+> git fetch upstream
+> git diff main..upstream/main --name-only # shows files that diverge
+> git pull --rebase upstream main
+> git push -f
+> ```
+>
+> I like creating a branch before this rebases, so that I can understand (perhaps more easily) the delta. I name them as `solution_<YYYY><MM><DD>`. This is because this repo is not a "fork", but an implementation/solution on top of the course.
+>
+> Additional updates would merit additional branches, which are then merged on top of "main"
+>
+
 
 ## How to use this repo
 
